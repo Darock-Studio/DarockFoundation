@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		Ir/0pEN3b3jE/UhFC6fEy3ro2LM=
+		</data>
 		<key>Headers/DarockFoundation.h</key>
 		<data>
 		TyM8/YgRzNC9zD9XPMsJUJ/u5zE=
@@ -12,13 +16,21 @@
 		<data>
 		UoIjsbjSR1vCCwl70WgCss/z0yc=
 		</data>
+		<key>Modules/.DS_Store</key>
+		<data>
+		yw13OZlMDJWnQfI85VfQ/0sj1NI=
+		</data>
+		<key>Modules/DarockFoundation.swiftmodule/.DS_Store</key>
+		<data>
+		FGk8mP8LAn1inGmtAB9o2UgzGzU=
+		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1r7NvNxnei2dD+3QUTIbj0fq3nw=
+		nOSefT+Vib5wrMAR+KCOtCwObbY=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		XT3F64uGciGCq9xqsU2mAoHTtEA=
+		x/ytJWwQnGLMdXIa7T2/Rxy/oNY=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +50,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k9UKb80JxxC7cEp+fsOt4wCliiA=
+		zWXvto1HW1UMLW5Tf3xMCrqFr5U=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +70,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TJxCPFktKLHOJDoPOBLy/ktsIg8=
+		XWa69hmnJhcwROWNH1rVkb1wD0Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8c++xmbOlTPmI957cdTVkEpV1Lmw17ch8L4Y7VsbsQ=
+			1crD25dUngivUhjhH5vfRYiKv3aJxUSTwxalf1O47U8=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOfOd0pZy9liWatr8dpFgBFwj0BRD4yYG3pvf2OFy6A=
+			GsZZDKWzZVkNgyuXlUdOJJ53AOt+Ym0Z5DB9J6Nr8N4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -120,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5pWJM/4VLHWKxQVA/Qy1lCMTVFXxpE9vfhfTRvyWz50=
+			/1IZNxVTNNWg0dDGm/bFB24aNloHn0iEuD7u14CqhFQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -155,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KouMUp/S3vQpnEJlfKGYF0VWIcOmrpE+LGD3eci6Vc=
+			a0VtjT7onafaaAyhb1tgSwF7uYT2ExmKbwq6hhUF/So=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
