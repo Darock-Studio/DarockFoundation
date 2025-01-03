@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "DarockFoundation",
     products: [
-        .library(name: "DarockFoundation", targets: ["DarockFoundation"]),
+        .library(name: "DarockFoundation", targets: ["DarockFoundation", "_DarockFoundationDependenciesWrapper"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire", from: "5.10.2"),
