@@ -44,6 +44,22 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
+			<string>DarockFoundation.framework/DarockFoundation</string>
+			<key>DebugSymbolsPath</key>
+			<string>dSYMs</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64</string>
+			<key>LibraryPath</key>
+			<string>DarockFoundation.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
 			<string>DarockFoundation.framework/Versions/A/DarockFoundation</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
@@ -75,22 +91,6 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>watchos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>DarockFoundation.framework/DarockFoundation</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
-			<key>LibraryPath</key>
-			<string>DarockFoundation.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>

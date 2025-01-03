@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		uAtIBJitEmmnhbMfWP3JKwNP8is=
+		hOtlM+JyuQ8jVVkGBH7Ifpm4jsA=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hhNI+WjfhoaMVkmrdXFBERRJtpU=
+		xcVYA3INfECfeYx739zU7/8DGuw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F0xS2QGUgEx/ttLYt7CjWiCq85Hx8qSBBNHwxw5yAi8=
+			qeQIaDfqL+9laeuzq/ABcwSLgt7FASgYWHw2va1GSNQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HlgHamWowAwgH+8rkSbHV615E6g/p0MAcK2StCIl2F0=
+			0xTG1w3EOXzcwRfdLF8Z4qLV3BdzEmxm8havaQ3BxMM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
