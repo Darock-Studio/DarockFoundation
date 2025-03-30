@@ -13,8 +13,20 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 extension Swift.String {
   public func apiFixed(_ fixType: DarockFoundation.ApiFixType = .server) -> Swift.String
-  public func urlEncoded() -> Swift.String
-  public func urlDecoded() -> Swift.String
+  @inlinable public func urlEncoded() -> Swift.String {
+        let encodeUrlString = self.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        return encodeUrlString ?? ""
+    }
+  @inlinable public func urlDecoded() -> Swift.String {
+        return self.removingPercentEncoding ?? ""
+    }
+  @inlinable public func compatibleUrlEncoded() -> Swift.String {
+        if #available(watchOS 10.0, *) {
+            return self
+        } else {
+            return self.urlEncoded()
+        }
+    }
   public func base64Decoded() -> Swift.String?
   public func base64Encoded() -> Swift.String
   public var md5: Swift.String {
@@ -39,8 +51,10 @@ extension SwiftUICore.Color {
 public func jsonString<T>(from value: T) -> Swift.String? where T : Swift.Encodable
 public func getJsonData<T>(_ type: T.Type, from json: Swift.String) -> T? where T : Swift.Decodable
 extension Swift.Array {
-  public subscript(from index: Swift.Int) -> Element? {
-    get
+  @inlinable public subscript(from index: Swift.Int) -> Element? {
+    get {
+        return self.indices ~= index ? self[index] : nil
+    }
   }
 }
 postfix operator ++
@@ -49,13 +63,13 @@ prefix operator ++
 prefix operator --
 extension Swift.Int {
   @discardableResult
-  postfix public static func ++ (num: inout Swift.Int) -> Swift.Int
+  @inline(__always) postfix public static func ++ (num: inout Swift.Int) -> Swift.Int
   @discardableResult
-  postfix public static func -- (num: inout Swift.Int) -> Swift.Int
+  @inline(__always) postfix public static func -- (num: inout Swift.Int) -> Swift.Int
   @discardableResult
-  prefix public static func ++ (num: inout Swift.Int) -> Swift.Int
+  @inline(__always) prefix public static func ++ (num: inout Swift.Int) -> Swift.Int
   @discardableResult
-  prefix public static func -- (num: inout Swift.Int) -> Swift.Int
+  @inline(__always) prefix public static func -- (num: inout Swift.Int) -> Swift.Int
 }
 extension Swift.Bool {
   @_transparent public init(_ intLiteral: Swift.Int) {
@@ -77,15 +91,23 @@ extension Swift.Int {
 }
 infix operator ~ : DefaultPrecedence
 extension Swift.Float {
-  public static func ~ (lhs: Swift.Float, rhs: Swift.Int) -> Swift.String
+  @inlinable public static func ~ (lhs: Swift.Float, rhs: Swift.Int) -> Swift.String {
+        return String(format: "%.\(rhs)f", lhs)
+    }
 }
 extension Swift.Double {
-  public static func ~ (lhs: Swift.Double, rhs: Swift.Int) -> Swift.String
+  @inlinable public static func ~ (lhs: Swift.Double, rhs: Swift.Int) -> Swift.String {
+        return String(format: "%.\(rhs)f", lhs)
+    }
 }
 prefix operator &&
-prefix public func && <T>(input: inout T) -> Swift.UnsafeMutablePointer<T>
+@inlinable prefix public func && <T>(input: inout T) -> Swift.UnsafeMutablePointer<T> {
+    withUnsafeMutablePointer(to: &input) { $0 }
+}
 prefix operator *
-prefix public func * <T>(ptr: Swift.UnsafeMutablePointer<T>) -> T
+@inlinable prefix public func * <T>(ptr: Swift.UnsafeMutablePointer<T>) -> T {
+    return ptr.pointee
+}
 @_hasMissingDesignatedInitializers public class DarockKit {
   @_hasMissingDesignatedInitializers @available(*, deprecated, message: "'DarockKit.Network' has deprecated in DarockFoundation. Use top-level functions instead.")
   public class Network {

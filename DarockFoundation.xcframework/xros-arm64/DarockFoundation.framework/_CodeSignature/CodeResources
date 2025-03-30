@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-xros.swiftsourceinfo</key>
 		<data>
-		6biqHn/qUHHfAbPSHKoPiO8lHnQ=
+		i2mZ5LV4JU8OAyP3ToYSag2ck6U=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		rA2/MR0Zl9VuaeV5yENNN55cTpY=
+		H4iSu9ffwT0eCNSgKNuPKYui03k=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
-		OvKiVG96iY/AlR3CVbd217yqiA0=
+		j/M/c5CZY5YvW7ByZ0xPUX02p0A=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		rA2/MR0Zl9VuaeV5yENNN55cTpY=
+		H4iSu9ffwT0eCNSgKNuPKYui03k=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		d5LW2GnDdIG1VGXzspBTZ8e1V/8=
+		iL42zYwupLrSE2qE7zqLCP67KqE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z8RcUb3ZJNsUleCzdA3aS3y3v/CdSfmpXrokO3L39cY=
+			JFKNyCUBtqyw26d2SSBBSllGhFCPGqv+t87HS+zWLIg=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -68,28 +68,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlJT25ZGo77iOrc2izBWktyUCKKTXgP8O+X/Dn0+UKU=
+			tnWoKO5ZtaweG8LPfUM+/1gt7go8T6K8b9AbM8YlrU4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			99F8qD3P+lrSQs0uLoqIPo/8H7ClIVW88JkajB7FjMU=
+			5BUmcCf4yaNspvX4lduTGafQdU/FmOz6t2xupu5RrJU=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlJT25ZGo77iOrc2izBWktyUCKKTXgP8O+X/Dn0+UKU=
+			tnWoKO5ZtaweG8LPfUM+/1gt7go8T6K8b9AbM8YlrU4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B8cPxpOyNbj60pcW5cMv5KBkZndP/jU6P0l9z9o8FTg=
+			OW92DJKgLjfIumPzb3EmHr8QlNjDZviknpfvCZF4Tdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KoKT03OnNqNrBq1OPAp1jtk018E0yTezg24Es9dpdZQ=
+			cYtpOq6XftkEzpSUoGp9caaENgb7DIsjEIdijzO6W+E=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cNozEhNdzb100X6Wh0/x4QBI3QwL+ne7zuaePYNWtHM=
+			rMi6cBv3RjbzI9fslszJHLGC4ZrfZLZzL7wFAddd5Iw=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -43,28 +43,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JtpEAlY4k271a+thBDfN3FKPiblTE5wRLrhBUvL6NSg=
+			J0lPoI9c2K8L3fjyDk/jgNKE7QonaDTs8Gsmdm2X3G4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mMtQAa90Jy/5WaPrQqzSHb5D+xVvbEs4pT67q7eML2Q=
+			YBHyFuf6c9Yjw0Wbkn1SRu2acpiIBXm3Kj3eVV9BTME=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JtpEAlY4k271a+thBDfN3FKPiblTE5wRLrhBUvL6NSg=
+			J0lPoI9c2K8L3fjyDk/jgNKE7QonaDTs8Gsmdm2X3G4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+f+PaKTFMLpiLP714Ebc+cehgJswZlfxTi7SNp6UZ0E=
+			DfXVJoQXgG6fU2m3RLZUepG8eYpCRHcohCuEBny7AEA=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -78,28 +78,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aDaHtW50mb3E6CwwuNxl1b92tBYF6Mobp8kJ0D0fryA=
+			Ik4st1UqKOqELGIH5o5YiTcTqvJ3ElA5zEENJnToPyY=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ghTWJWTvmagZ9WZXNJnX8w+AJvN7xLswtRXGlHglq3A=
+			30r+j7nCWnmQWXxIX0EYhNKK0z1bGMmjOO7Q54NHaoY=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aDaHtW50mb3E6CwwuNxl1b92tBYF6Mobp8kJ0D0fryA=
+			Ik4st1UqKOqELGIH5o5YiTcTqvJ3ElA5zEENJnToPyY=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yt9O7m5vb8g2XGwTIplfus6MggT2DWfkeakU4x0Bimg=
+			t2evAa/3GhnIe0D/INgAMtkLrKSORbZkbUooAPzskCE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

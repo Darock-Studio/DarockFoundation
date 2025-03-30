@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		IjFK0aPzcYz6eSJiqtNiMJa0A5c=
+		fpCjzF7weTKspHFyDhkDWvESipk=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		D2L2ZySbb1V/RKpBf8/XuHmuPkU=
+		3QzifVTyfCeqTFD9WbFynYS1Yyk=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		QOLbtG05l3T4u+1LiOv/DS2U3I8=
+		fDdpcJyAaQBtJmhdEAOoERw/61A=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		pA7C9sB9Z5yfTtTFOjo9HUqNAVg=
+		qtLwagw7gHvLtMMGXK2x2VoesoE=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		QOLbtG05l3T4u+1LiOv/DS2U3I8=
+		fDdpcJyAaQBtJmhdEAOoERw/61A=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		IWz7GRxRXWM7pR+XRuadDGNBU/U=
+		SQmnWjm4AD2laCGtYm0ratDtPTo=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		wfoUt6Ys+qhoI4MZ34vGyuwwDgs=
+		FUgclviPLfCpFBVfYOQe9L1ZU40=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		T91ESDCJT5eBT45yH5k9KWD1BHM=
+		YYPOLKOQFjp7WGNa6ucm7yI6XRU=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		wfoUt6Ys+qhoI4MZ34vGyuwwDgs=
+		FUgclviPLfCpFBVfYOQe9L1ZU40=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		m2ERIqR9xkYMRa7mSth77dCdrVM=
+		D39eC5xRloSgUbb+rIEYVibLlmA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jwKx9L/ha+XliRFTtLIWOYRmyvDDMpVjlaokfK1MA8U=
+			BwBTmY7LZFy3OXlAmyoKHnbSIey5RIH8sy1qjYftKtU=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ze4sxN2Ao7gpYDSGLE4tyXRuk0oyecHMZaAwbfnh9Ok=
+			2zGpa3YYa1Cklt5tOnwN/SHz4RmuM447eGEhCDpD4iE=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
@@ -99,28 +99,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rsp0q8QacZwltvzOtMYMN77JZA4sSeOhBtosD35gq0=
+			oiODmKxttMVz+6DSocHvggbOxRQ5SZSlAQTfrDRtT2Y=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G8irnkKJAfEtxQkf3VBtYCbVoImL8lKxA64yeuCJp4M=
+			VvdDtziJ+1ilEnb0fsngqX8YWL6SvTZCpX89pK1isHQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rsp0q8QacZwltvzOtMYMN77JZA4sSeOhBtosD35gq0=
+			oiODmKxttMVz+6DSocHvggbOxRQ5SZSlAQTfrDRtT2Y=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1v424PL3O+/HjCI/6cRjxaz2jK1HbDKVKJeaujuABaU=
+			R6wxJhEk5qtVrrhe/EN3hS2JnqWrBYPTj3Ea7bNxTQQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
@@ -134,28 +134,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cxK9xjm3y6PKOVVkvAdlNPqiP2cxx6/ZI3taMeJ/Yk=
+			6pH94FDQyBiNW4WTx3H871Kq2mOw8gjd7eNxRAag1Ss=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OXywBxOTpHAWaQwNhOwCd8uHj9DTc3SAiwjPLqRwWCM=
+			jqY/DcrlsWnon5iKvyThGpnx6YOQKk9kLrQ7t8jmfj0=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cxK9xjm3y6PKOVVkvAdlNPqiP2cxx6/ZI3taMeJ/Yk=
+			6pH94FDQyBiNW4WTx3H871Kq2mOw8gjd7eNxRAag1Ss=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6csiqIUAM6O+yaRD84KIK6r6XZ9qpPnQqMuzgJ5baKk=
+			XQCAQR+Y65zcD/RAzySqp+2Nq+QoeDNXSPX5Wpp1Ve4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
