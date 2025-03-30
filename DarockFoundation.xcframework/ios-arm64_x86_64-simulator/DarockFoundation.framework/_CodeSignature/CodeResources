@@ -4,33 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		Ir/0pEN3b3jE/UhFC6fEy3ro2LM=
-		</data>
 		<key>Headers/DarockFoundation.h</key>
 		<data>
 		TyM8/YgRzNC9zD9XPMsJUJ/u5zE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UoIjsbjSR1vCCwl70WgCss/z0yc=
-		</data>
-		<key>Modules/.DS_Store</key>
-		<data>
-		yw13OZlMDJWnQfI85VfQ/0sj1NI=
-		</data>
-		<key>Modules/DarockFoundation.swiftmodule/.DS_Store</key>
-		<data>
-		FGk8mP8LAn1inGmtAB9o2UgzGzU=
+		mlinP1l5HPB/qhzS6xZaT/LpLgc=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		dxKdTUuE8ME5axgYxlPBt0Ds27w=
+		ShuNBZxnOrwAWVnNSJfM7E6g9Jo=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		E2j0Fv8fYUxHEFQzTBSBeMGOe4Q=
+		JkinuDon1B2zgcB5AbrEB+5Oevg=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +26,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SuJ0h0Q3BPcWcvt0BGAvyCNJF64=
+		pht14KuyyFPdJoRKC88TF8EQCBQ=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +34,11 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SuJ0h0Q3BPcWcvt0BGAvyCNJF64=
+		pht14KuyyFPdJoRKC88TF8EQCBQ=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nit34pDVgfqaX5ag12stpDxiNmo=
+		xS7D/T4EuQnOD9u0apQ+fT2xjbk=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +46,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rP8eH/hdvkmMAk9srwP89jJges4=
+		AXE4ueAD8hgerKxn3P/HUHuoVPw=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,11 +54,11 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rP8eH/hdvkmMAk9srwP89jJges4=
+		AXE4ueAD8hgerKxn3P/HUHuoVPw=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1sJAl7lceTP3rIkz7Rvina4OOo8=
+		q/q6iPE/4K7IL26pSfqIRbixySo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j03K5MTiDmt7M6QOjZBGn6cLVvTPmP3Vi1+SmP/GNEM=
+			+7G+QIg44sz4Lqrc0POziLjPwGZemcY2LD3BwBUtRpg=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PLEZuqp2WZHfyQ0gp3JLBkSJn3tqrYv3nJCUhss3hzo=
+			p7Y6W7YsUVDwOSU/s29WQO4QElZHA2fc83e+SYqjZqc=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -111,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoq2SYDJ7R07ehEtza0n42FpueWLcW2GCMhI2yiDeLo=
+			pTnwmhWe2oL6rslIQ0ljPJSfZP2OrvqirC00lgQHXgU=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -125,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoq2SYDJ7R07ehEtza0n42FpueWLcW2GCMhI2yiDeLo=
+			pTnwmhWe2oL6rslIQ0ljPJSfZP2OrvqirC00lgQHXgU=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SngmpViynGwAAn8IDwVOgmK9PN5LVPUsZNnzxLYKR9k=
+			YaRI9KQOqru9HaSxR9etUixP1j+c+Du8XG2k6kzClyI=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -146,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XmNY7xgoG0WQYcvSsUk4rsaHbmrftL7tzo4+eXVD/U4=
+			MI5fzbonFdiAQQ8QjApmqTE7lk11KlkgVVK6A50tl1U=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -160,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XmNY7xgoG0WQYcvSsUk4rsaHbmrftL7tzo4+eXVD/U4=
+			MI5fzbonFdiAQQ8QjApmqTE7lk11KlkgVVK6A50tl1U=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p8ACAjQmL/FxdNXcRMRxHRlVfQA7kHXmz6XY44lmUp8=
+			HXK8BKy7Fj1WZsdOJUuN8o9CyTfJklfKgQiS6On+8iI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

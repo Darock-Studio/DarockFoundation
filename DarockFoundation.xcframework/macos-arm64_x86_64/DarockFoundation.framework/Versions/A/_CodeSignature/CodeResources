@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		mzIuneLUjR4UUbMcujmCUupk4Bw=
+		/Tuwo4qsnezuRmWlMO76h/sjwuA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+BFJATdD4o9MXLU5XQfaZjXMijfvVaUmBBxMSfAYCE=
+			KoKT03OnNqNrBq1OPAp1jtk018E0yTezg24Es9dpdZQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7I+80tgvcT43T+cSesQrnh2VzBQkO9neVacA7zalCnM=
+			cNozEhNdzb100X6Wh0/x4QBI3QwL+ne7zuaePYNWtHM=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZVMlAK9+r6vLfoeHF3CSClzVEmeOwIFaA4CK/uBx3Zg=
+			JtpEAlY4k271a+thBDfN3FKPiblTE5wRLrhBUvL6NSg=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -57,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZVMlAK9+r6vLfoeHF3CSClzVEmeOwIFaA4CK/uBx3Zg=
+			JtpEAlY4k271a+thBDfN3FKPiblTE5wRLrhBUvL6NSg=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2GPXvInQx5Go6+ypbcVvDmaorJ52TK0NtsIsFZahTxk=
+			+f+PaKTFMLpiLP714Ebc+cehgJswZlfxTi7SNp6UZ0E=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l46QV2BgPywTO/lSVCO8UO5On1vKCzVNs/XwkdRYqD0=
+			aDaHtW50mb3E6CwwuNxl1b92tBYF6Mobp8kJ0D0fryA=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l46QV2BgPywTO/lSVCO8UO5On1vKCzVNs/XwkdRYqD0=
+			aDaHtW50mb3E6CwwuNxl1b92tBYF6Mobp8kJ0D0fryA=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hOxwDjtz18KXmrCl909rIFBJ5tRI7isj4Y3//Z/0Sb8=
+			Yt9O7m5vb8g2XGwTIplfus6MggT2DWfkeakU4x0Bimg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zzuOGfDOoR4BGCgN+5yMlmceagqDvrNQ001JT5ysTH8=
+			lCe1QxaziFUJHmUIknwhQ393H5EztCst7d0ifk76pDc=
 			</data>
 		</dict>
 	</dict>
