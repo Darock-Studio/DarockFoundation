@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-xros.swiftsourceinfo</key>
 		<data>
-		i2mZ5LV4JU8OAyP3ToYSag2ck6U=
+		X1tVNsVLXeUfJ/AZ2QU+dgPGepQ=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		H4iSu9ffwT0eCNSgKNuPKYui03k=
+		hJzw1xTH+DSAbr6DeNbhJAspgZM=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		H4iSu9ffwT0eCNSgKNuPKYui03k=
+		hJzw1xTH+DSAbr6DeNbhJAspgZM=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		iL42zYwupLrSE2qE7zqLCP67KqE=
+		6h0klydLzYW0rSZv6BLyuhTOVuw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JFKNyCUBtqyw26d2SSBBSllGhFCPGqv+t87HS+zWLIg=
+			xUHTwD+fI26KiiailJf24Qd+129X49WXsZxh5KvDupM=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tnWoKO5ZtaweG8LPfUM+/1gt7go8T6K8b9AbM8YlrU4=
+			lNHFTAV75LiN+yuEaTa3ifsDuDACtSW83Wddwdb7Z0M=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tnWoKO5ZtaweG8LPfUM+/1gt7go8T6K8b9AbM8YlrU4=
+			lNHFTAV75LiN+yuEaTa3ifsDuDACtSW83Wddwdb7Z0M=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OW92DJKgLjfIumPzb3EmHr8QlNjDZviknpfvCZF4Tdg=
+			gyI0b8v5a9ABgsdyfYKGECNQKn+juZRjboNX7376LkA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

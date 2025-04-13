@@ -18,7 +18,7 @@ extension Swift.String {
         return encodeUrlString ?? ""
     }
   @inlinable public func urlDecoded() -> Swift.String {
-        return self.removingPercentEncoding ?? ""
+        return self.removingPercentEncoding ?? self
     }
   @inlinable public func compatibleUrlEncoded() -> Swift.String {
         if #available(watchOS 10.0, *) {
@@ -71,24 +71,48 @@ extension Swift.Int {
   @discardableResult
   @inline(__always) prefix public static func -- (num: inout Swift.Int) -> Swift.Int
 }
-extension Swift.Bool {
+#if compiler(>=5.3) && $RetroactiveAttribute
+extension Swift.Bool : @retroactive Swift.ExpressibleByIntegerLiteral {
   @_transparent public init(_ intLiteral: Swift.Int) {
-        if intLiteral == 0 {
-            self = false
-        } else {
-            self = true
-        }
+        self = intLiteral != 0
     }
+  @_transparent public init(integerLiteral value: Swift.IntegerLiteralType) {
+        self.init(value)
+    }
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
 }
-extension Swift.Int {
+#else
+extension Swift.Bool : Swift.ExpressibleByIntegerLiteral {
+  @_transparent public init(_ intLiteral: Swift.Int) {
+        self = intLiteral != 0
+    }
+  @_transparent public init(integerLiteral value: Swift.IntegerLiteralType) {
+        self.init(value)
+    }
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
+}
+#endif
+#if compiler(>=5.3) && $RetroactiveAttribute
+extension Swift.Int : @retroactive Swift.ExpressibleByBooleanLiteral {
   @_transparent public init(_ boolLiteral: Swift.Bool) {
-        if boolLiteral {
-            self = 1
-        } else {
-            self = 0
-        }
+        self = boolLiteral ? 1 : 0
     }
+  @_transparent public init(booleanLiteral value: Swift.BooleanLiteralType) {
+        self.init(value)
+    }
+  public typealias BooleanLiteralType = Swift.BooleanLiteralType
 }
+#else
+extension Swift.Int : Swift.ExpressibleByBooleanLiteral {
+  @_transparent public init(_ boolLiteral: Swift.Bool) {
+        self = boolLiteral ? 1 : 0
+    }
+  @_transparent public init(booleanLiteral value: Swift.BooleanLiteralType) {
+        self.init(value)
+    }
+  public typealias BooleanLiteralType = Swift.BooleanLiteralType
+}
+#endif
 infix operator ~ : DefaultPrecedence
 extension Swift.Float {
   @inlinable public static func ~ (lhs: Swift.Float, rhs: Swift.Int) -> Swift.String {
@@ -107,6 +131,21 @@ prefix operator &&
 prefix operator *
 @inlinable prefix public func * <T>(ptr: Swift.UnsafeMutablePointer<T>) -> T {
     return ptr.pointee
+}
+@inlinable prefix public func * <T>(ptr: Swift.UnsafePointer<T>) -> T {
+    return ptr.pointee
+}
+infix operator =! : DefaultPrecedence
+@discardableResult
+@inlinable public func =! <T>(lhs: inout T, rhs: T) -> T {
+    lhs = rhs
+    return lhs
+}
+extension Foundation.Date {
+  public func formatted(by format: Swift.String) -> Swift.String
+  public func formatted(dateStyle: Foundation.DateFormatter.Style = .medium, timeStyle: Foundation.DateFormatter.Style = .medium) -> Swift.String
+  public func formatted(byModifiedFormatter modifying: (Foundation.DateFormatter) -> Swift.Void) -> Swift.String
+  public func components(from calendar: Foundation.Calendar = .autoupdatingCurrent) -> Foundation.DateComponents
 }
 @_hasMissingDesignatedInitializers public class DarockKit {
   @_hasMissingDesignatedInitializers @available(*, deprecated, message: "'DarockKit.Network' has deprecated in DarockFoundation. Use top-level functions instead.")
