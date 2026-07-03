@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-macos13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DarockFoundation
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-macos13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DarockFoundation
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import Alamofire
 import CommonCrypto
 import CoreHaptics
@@ -78,7 +79,6 @@ extension Swift.Int {
   @discardableResult
   @inline(__always) prefix public static func -- (num: inout Swift.Int) -> Swift.Int
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
 extension Swift.Bool : @retroactive Swift.ExpressibleByIntegerLiteral {
   @_transparent public init(_ intLiteral: Swift.Int) {
         self = intLiteral != 0
@@ -88,18 +88,6 @@ extension Swift.Bool : @retroactive Swift.ExpressibleByIntegerLiteral {
     }
   public typealias IntegerLiteralType = Swift.IntegerLiteralType
 }
-#else
-extension Swift.Bool : Swift.ExpressibleByIntegerLiteral {
-  @_transparent public init(_ intLiteral: Swift.Int) {
-        self = intLiteral != 0
-    }
-  @_transparent public init(integerLiteral value: Swift.IntegerLiteralType) {
-        self.init(value)
-    }
-  public typealias IntegerLiteralType = Swift.IntegerLiteralType
-}
-#endif
-#if compiler(>=5.3) && $RetroactiveAttribute
 extension Swift.Int : @retroactive Swift.ExpressibleByBooleanLiteral {
   @_transparent public init(_ boolLiteral: Swift.Bool) {
         self = boolLiteral ? 1 : 0
@@ -109,17 +97,6 @@ extension Swift.Int : @retroactive Swift.ExpressibleByBooleanLiteral {
     }
   public typealias BooleanLiteralType = Swift.BooleanLiteralType
 }
-#else
-extension Swift.Int : Swift.ExpressibleByBooleanLiteral {
-  @_transparent public init(_ boolLiteral: Swift.Bool) {
-        self = boolLiteral ? 1 : 0
-    }
-  @_transparent public init(booleanLiteral value: Swift.BooleanLiteralType) {
-        self.init(value)
-    }
-  public typealias BooleanLiteralType = Swift.BooleanLiteralType
-}
-#endif
 infix operator ~ : DefaultPrecedence
 extension Swift.Float {
   @inlinable public static func ~ (lhs: Swift.Float, rhs: Swift.Int) -> Swift.String {
@@ -160,20 +137,20 @@ extension Foundation.Date {
     public static let shared: DarockFoundation.DarockKit.Network
     @discardableResult
     open func request(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil) -> Alamofire.DataRequest
-    open func requestJSON(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping ((SwiftyJSON.JSON, Swift.Bool) -> Swift.Void))
-    open func requestString(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping ((Swift.String, Swift.Bool) -> Swift.Void))
+    open func requestJSON(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping (SwiftyJSON.JSON, Swift.Bool) -> Swift.Void)
+    open func requestString(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
     open func requestJSON(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil) async -> DarockFoundation.Result<SwiftyJSON.JSON, Swift.Void>
     open func requestString(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil) async -> DarockFoundation.Result<Swift.String, Swift.Void>
     @objc deinit
   }
   @objc deinit
 }
-public func requestJSON(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping ((SwiftyJSON.JSON, Swift.Bool) -> Swift.Void))
-public func requestString(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping ((Swift.String, Swift.Bool) -> Swift.Void))
+public func requestJSON(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping (SwiftyJSON.JSON, Swift.Bool) -> Swift.Void)
+public func requestString(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil, callback: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
 public func requestJSON(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil) async -> DarockFoundation.Result<SwiftyJSON.JSON, Swift.Void>
 public func requestString(_ convertible: any Alamofire.URLConvertible, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, requestModifier: Alamofire.Session.RequestModifier? = nil) async -> DarockFoundation.Result<Swift.String, Swift.Void>
-public func requestAPI(_ endpoint: Swift.String, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, callback: @escaping ((Swift.String, Swift.Bool) -> Swift.Void))
-@inlinable public func requestAPI(_ endpoint: Swift.String..., method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, callback: @escaping ((Swift.String, Swift.Bool) -> Swift.Void)) {
+public func requestAPI(_ endpoint: Swift.String, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, callback: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
+@inlinable public func requestAPI(_ endpoint: Swift.String..., method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil, callback: @escaping (Swift.String, Swift.Bool) -> Swift.Void) {
     requestAPI(endpoint.joined(separator: "/"), method: method, parameters: parameters, encoding: encoding, headers: headers, interceptor: interceptor, callback: callback)
 }
 public func requestAPI(_ endpoint: Swift.String, method: Alamofire.HTTPMethod = .get, parameters: Alamofire.Parameters? = nil, encoding: any Alamofire.ParameterEncoding = URLEncoding.default, headers: Alamofire.HTTPHeaders? = nil, interceptor: (any Alamofire.RequestInterceptor)? = nil) async -> DarockFoundation.Result<Swift.String, Swift.Void>

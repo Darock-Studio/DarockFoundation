@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yTpW/xLUcSLQzfRpwnGCLv9OSQs=
+		e8ytosQRDGDqkGYa3403k/+dwO8=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<data>
-		33wYDFOpSHHeXczHBsKH2L9mecc=
+		fyA9IFLta8Buh9aieCA/3j1WPLA=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<data>
-		bAxy0zCmV78m1tv4CwGZpDzF8zw=
+		1WbNSVXJxci6Au3OPFkqoKYBbN0=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
-		fOJHC2HfZHFOkFT+mriEFtvTPK4=
+		ep7afKOYekOYpSHA6PAQXWGOba0=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<data>
-		8K4AJatbZd7OXY8i2FGUT+OXfS4=
+		0CTmLmDCBz6CdKdr4BMqtEkd53k=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<data>
-		fOJHC2HfZHFOkFT+mriEFtvTPK4=
+		ep7afKOYekOYpSHA6PAQXWGOba0=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.swiftmodule</key>
 		<data>
-		7Y+vSt+mqvZr3j3IKaBzypCrwvw=
+		QzhqQzeTc7RHxB5IIBb9S0mT3Lw=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
-		ktuPdPpz69fPTAzXd29pwQpr/bk=
+		plQ8S7uG3XVEUKFbcfJ1ApLMgbA=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<data>
-		5Qm/ka5HURk0Jflnn78pVi05ub0=
+		Wnq9E9P4jMXspB7ft+TdUP84Pqc=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<data>
-		ktuPdPpz69fPTAzXd29pwQpr/bk=
+		plQ8S7uG3XVEUKFbcfJ1ApLMgbA=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.swiftmodule</key>
 		<data>
-		ml2g4FFvs5TG98u+SDAQi9GdYq8=
+		f3MjEzhHszA9zUZatcp4yRRGkjE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,22 +82,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			33wYDFOpSHHeXczHBsKH2L9mecc=
+			fyA9IFLta8Buh9aieCA/3j1WPLA=
 			</data>
 			<key>hash2</key>
 			<data>
-			cxhNlbh30D8wiGivN+fJZOTsQUjMADee3I/l8srLDWc=
+			ptItpX/D4BjI+Wr6gWBILbu3ph+oOwUpeaGThlnn2gA=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bAxy0zCmV78m1tv4CwGZpDzF8zw=
+			1WbNSVXJxci6Au3OPFkqoKYBbN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			wXvA6LbgYdc07mWcET54fxZEVKm70esK24Dk+rpaUwM=
+			K1ZgOE/wB78U4lLb7AI/PxWF9JJEdcCcvs63CFV8f1g=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.abi.json</key>
@@ -115,44 +115,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fOJHC2HfZHFOkFT+mriEFtvTPK4=
+			ep7afKOYekOYpSHA6PAQXWGOba0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bs7TCaT2RmNtRSLyzK8XtR9yLMMdzSfE/lZP74ffdTE=
+			F41S37yA9Fw6gmPVAU720pR9uaw4+L76HDE8Tseas/k=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8K4AJatbZd7OXY8i2FGUT+OXfS4=
+			0CTmLmDCBz6CdKdr4BMqtEkd53k=
 			</data>
 			<key>hash2</key>
 			<data>
-			nlj7Pe453mraf4KWSsMEJkYMWfJCcGuH0Om6Z8RHwgw=
+			RXud/U3+bNtEPb2n8ssT3rDzPuwg9dUOj/8UHqZ/2mA=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fOJHC2HfZHFOkFT+mriEFtvTPK4=
+			ep7afKOYekOYpSHA6PAQXWGOba0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bs7TCaT2RmNtRSLyzK8XtR9yLMMdzSfE/lZP74ffdTE=
+			F41S37yA9Fw6gmPVAU720pR9uaw4+L76HDE8Tseas/k=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-watchos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7Y+vSt+mqvZr3j3IKaBzypCrwvw=
+			QzhqQzeTc7RHxB5IIBb9S0mT3Lw=
 			</data>
 			<key>hash2</key>
 			<data>
-			eQ00VYgLYMTLk8fGxiTUT2TrroNJ7igp5DOU0eOyatM=
+			BH6a2taMuwna+BqkmJWpj1NUY2XwMG6MwRK/RQacz6w=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.abi.json</key>
@@ -170,44 +170,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ktuPdPpz69fPTAzXd29pwQpr/bk=
+			plQ8S7uG3XVEUKFbcfJ1ApLMgbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MthpjswCB2wQ1C5kKj1p5GHhiqN5cc97rmugWkgEHV8=
+			YP8HSn/IAAegEXV5/wAZyP7U2MSwWZ7j8EddS3vo0kI=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Qm/ka5HURk0Jflnn78pVi05ub0=
+			Wnq9E9P4jMXspB7ft+TdUP84Pqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dLemBWejwcuX0N6997nAxEh/D4fN82xQo7OoB/EUyX0=
+			g+3LLQTnydtkwy4Vgi+9Oh9TdCDrBk9XCpL2mjtmJp4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ktuPdPpz69fPTAzXd29pwQpr/bk=
+			plQ8S7uG3XVEUKFbcfJ1ApLMgbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MthpjswCB2wQ1C5kKj1p5GHhiqN5cc97rmugWkgEHV8=
+			YP8HSn/IAAegEXV5/wAZyP7U2MSwWZ7j8EddS3vo0kI=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64_32-apple-watchos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ml2g4FFvs5TG98u+SDAQi9GdYq8=
+			f3MjEzhHszA9zUZatcp4yRRGkjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KTtUUU4ZVWkPj5hAzQr9Z7ONenbcwLIycngmfidqUt4=
+			z99uubxDtSyAqT1pwG5ZPAiW8hYzR3TgPsw/VU24MEI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

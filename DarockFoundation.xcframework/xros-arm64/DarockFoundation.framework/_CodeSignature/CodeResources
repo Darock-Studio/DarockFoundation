@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LKlDWaJG8pmxpkyWYthOwucxZvA=
+		27AivZ37T6bBA6ONdwVJORp5gxQ=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-xros.swiftsourceinfo</key>
 		<data>
-		X1tVNsVLXeUfJ/AZ2QU+dgPGepQ=
+		zE2EmZnqecYyJf9l8cg9QxPLwts=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		hJzw1xTH+DSAbr6DeNbhJAspgZM=
+		FWEVvSu3frbjTK6xO1Zm/qXa4hM=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
-		j/M/c5CZY5YvW7ByZ0xPUX02p0A=
+		myqC2jY5bzhC4guixz3rsfyJQAQ=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		hJzw1xTH+DSAbr6DeNbhJAspgZM=
+		FWEVvSu3frbjTK6xO1Zm/qXa4hM=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		6h0klydLzYW0rSZv6BLyuhTOVuw=
+		P1bjHWWanQijv2RDruayWX86IDA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUHTwD+fI26KiiailJf24Qd+129X49WXsZxh5KvDupM=
+			vuBZ0/ohBq5CvIvQlGvHbehO7W62tt2CCzYak5YYANg=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -68,28 +68,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNHFTAV75LiN+yuEaTa3ifsDuDACtSW83Wddwdb7Z0M=
+			YjI2Rk3Z+PneU5DUBysRNk3y3UyC4cwuotTrf4CysAQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5BUmcCf4yaNspvX4lduTGafQdU/FmOz6t2xupu5RrJU=
+			YEpwJomTBFimYuSIqoH1rFtctXoMQGJTLDXDN+ygirw=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNHFTAV75LiN+yuEaTa3ifsDuDACtSW83Wddwdb7Z0M=
+			YjI2Rk3Z+PneU5DUBysRNk3y3UyC4cwuotTrf4CysAQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyI0b8v5a9ABgsdyfYKGECNQKn+juZRjboNX7376LkA=
+			pTnnFaAIqnWmMTuUBbPvwmZQ/kdsHcdUnandBv1xM5Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
