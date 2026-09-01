@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		YpJvEx7y1cbBAhlt+GtiK+/xkIo=
+		/LY5rmvB2RJmEcd00ikGv5MKzjc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYcCn7tg7DsGpBq7xDlVzqWAE/kX4IThgseAzbhDGQQ=
+			bFPkj0Lyt72wL2d+fW8nM41rDqd5i6TQpCcQz1cMhPA=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CsKX7YIBzdTYrlR5fmpCADABE8N0Dobdpt9x4wfnzNc=
+			wintlWUyVEHHYaoomG1Dk3XWSGIwE1sowUXhzXjScnE=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
@@ -43,28 +43,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mqA9OUX/7+Mw5HVFGf0hJnPU2JvJTIOYrE8p9f6dFI=
+			2COvTRxV7JfNBjIIIJc1Z02VClR4QA/Ej2PEUvPL+VQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFtlFr/Jit0SSuvnlvj3BGnhXsKJqz3qIuHRyaISOcs=
+			Rgx8LbBiiVLbVLpN5lc5S9AgE52Mqhrsxc64C31t/H4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mqA9OUX/7+Mw5HVFGf0hJnPU2JvJTIOYrE8p9f6dFI=
+			2COvTRxV7JfNBjIIIJc1Z02VClR4QA/Ej2PEUvPL+VQ=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2U8LK0XxEPW3oI1ZBlCWBGJ2gmnYC2lFqql79jPt//8=
+			EfOaN/iEiZ1HTEdMvv6fY4QvMtS+faUaP6jFMlLcJYE=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
@@ -78,28 +78,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J74MZ7Up/RM4bMXYIjNRTkCM8lbdm2D3ABK+o3DBoOg=
+			SciHBwgh6tkGQbWOrFeNuI8MV+k1P69WVER4d2cRBo8=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZMAjmqWw21WPVvTVAFEC3/p5nMBky5+fxtVct8E4UIU=
+			qoFnyaAiJlo2j2FggdZRtJ1MKAqxPZXm+xvNBRRXCsY=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J74MZ7Up/RM4bMXYIjNRTkCM8lbdm2D3ABK+o3DBoOg=
+			SciHBwgh6tkGQbWOrFeNuI8MV+k1P69WVER4d2cRBo8=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2vkSf1x+eUL7a6J6YhQbndwxkFhvlPuN9gKBd+8cCI=
+			w4ozwje7Dd+P3Wa9F5235nWujP49hgy2TNllfpri8qc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eXXs+yHuot3m42qDom2+3H0b6bDgi+HWQ4m31EW4OXM=
+			PmJOYdcMmo6wQLRDv6GmzNKnkyA4GKVsSfriUIWpNuA=
 			</data>
 		</dict>
 	</dict>

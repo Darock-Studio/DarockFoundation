@@ -17,7 +17,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(name: "DarockFoundation", path: "DarockFoundation.xcframework"),
         .target(name: "_DarockFoundationDependenciesWrapper", dependencies: [
-            .product(name: "AlamofireDynamic", package: "Alamofire"),
+            .product(name: "Alamofire", package: "Alamofire"),
             "SwiftyJSON"
         ])
     ]

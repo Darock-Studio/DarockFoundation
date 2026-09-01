@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z7+/BDoKAAsCvgppeSlldbO7F6Y=
+		Hod3+j1XsARJYbyvYey2GKykYak=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8i5m+vAbUy4hVrHQsI0aM4mxI0k=
+		dChoCYzHXU1v6+5OeVTdob0bjcY=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		V3zkcVen3YhjtKGu2uglSv7qnyk=
+		BXzfzvQlCsrUWcvoFjoQhPDaYk4=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		SDWRDWpl3HGXRxIY3XYwOJLqju8=
+		3GBfAaZSmKeuSi9any7uG1NTOMU=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		V3zkcVen3YhjtKGu2uglSv7qnyk=
+		BXzfzvQlCsrUWcvoFjoQhPDaYk4=
 		</data>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NNbc2jNTXnNnKGqfoadrzJyucnw=
+		Ar//8cbDp3ygavs/ksUZAIhr1q4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zd0eucZRNa6ZcPrHNjmYsOWxCfaEDR8AuDNx1ipotSs=
+			kakVBIOHZUeHHW7DgWOfR1BtW3+kcfNXVMcKivH5aWM=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -68,28 +68,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQbk5WaSdT6uuHPNY/HNPE3emgnbLrNtiQNxW/MJHWc=
+			agc25ShR5m8yf4ptQewH30z+5EnGIDD0T09KAR08Cjc=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nT3dMjxeaENIn3igCzJqucY/ibgOAFCHH+Fnuxu/GYw=
+			54S2Jg6stYN9mi5YZ9z6VfsVbDgxnQuNqU2p/iKpeM4=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQbk5WaSdT6uuHPNY/HNPE3emgnbLrNtiQNxW/MJHWc=
+			agc25ShR5m8yf4ptQewH30z+5EnGIDD0T09KAR08Cjc=
 			</data>
 		</dict>
 		<key>Modules/DarockFoundation.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mE6TdymQyfiDZQ4c84rBdmWtGr+F8FKbJgGVROxgRk=
+			YDGU3QAzidKKI8CHCj1TjyXDzBy59oBtIqeRQnqlwn0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
