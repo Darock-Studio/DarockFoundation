@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "DarockFoundation", url: "https://github.com/darock-studio/darockfoundation/releases/download/v1.0.0/DarockFoundation.xcframework.zip", checksum: "8772e9bb9a60d90e02af499d9496c91ffa9d3c51b0cf2e03dacff0acbfdef1f9"),
+        .binaryTarget(name: "DarockFoundation", url: "https://github.com/darock-studio/darockfoundation/releases/download/v1.0.1/DarockFoundation.xcframework.zip", checksum: "552f06c64b2a5d143911f2d62a4fdfaf0f21b523615c1864999f57c4c6a32174"),
         .target(name: "_DarockFoundationDependenciesWrapper", dependencies: [
             .product(name: "Alamofire", package: "Alamofire"),
             "SwiftyJSON"
