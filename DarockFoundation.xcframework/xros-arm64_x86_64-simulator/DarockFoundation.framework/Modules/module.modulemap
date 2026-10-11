@@ -1,6 +1,0 @@
-framework module DarockFoundation {
-  umbrella header "DarockFoundation.h"
-  export *
-
-  module * { export * }
-}
